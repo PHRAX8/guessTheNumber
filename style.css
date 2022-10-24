@@ -1,0 +1,152 @@
+:root{
+  font-size: 6.25%;
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background: linear-gradient(287.56deg, #C2E9FB 0%, #A1C4FD 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+main{
+  width: 428px;
+  height: 234px;
+
+  background: #FFFFFF;
+  box-shadow: 0rem 2rem 4rem rgba(0, 0, 0, 0.1);
+  border-radius: 6rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.content{
+  width: 300rem;
+  height: 162rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.box{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.box h1{
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24rem;
+  line-height: 29rem;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #34355B;
+  margin-bottom: 16rem;
+}
+.box span{
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16rem;
+  line-height: 150%;
+  text-align: center;
+  color: rgba(52, 53, 91, 0.8);
+  margin-bottom: 48rem;
+}
+.counter-button{
+  width: 125rem;
+  height: 52rem;
+  display: flex;
+  align-items: center;
+}
+.counter-button input{
+  padding: 16rem 15rem 16rem;
+  width: 43rem;
+  height: 53rem;
+  background: #DCE2E9;
+  border-radius: 4rem 0rem 0rem 4rem;
+  border: none;
+  font-family: 'DM Sans',sans-serif;
+  font-weight: 400;
+  font-size: 16rem;
+  line-height: 21rem;
+  color: #34355B;
+  z-index: 1;
+}
+
+#tryButton{
+  font-family: 'DM Sans';
+  font-weight: 700;
+  font-size: 16rem;
+  line-height: 21rem;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+.counter-button button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 16rem;
+
+  width: 82rem;
+  height: 53rem;
+
+  background: #7879F1;
+  border-radius: 0 4rem 4rem 0;
+  border: none;
+  cursor: pointer;
+}
+
+.result{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 32rem;
+}
+
+.result h2{
+  font-family: 'DM Sans',sans-serif;
+  font-weight: 400;
+  font-size: 24rem;
+  line-height: 150%;
+  text-align: center;
+  color: #34355B;
+}
+
+#returnButton{
+  padding: 16rem;
+  background: #7879F1;
+  border-radius: 4rem;
+
+  border: none;
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 700;
+  font-size: 16rem;
+  line-height: 21rem;
+  text-align: center;
+  color: #FFFFFF;
+  cursor: pointer;
+}
+
+.hide{
+  display: none;
+  opacity: 0;
+}
